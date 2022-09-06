@@ -69,11 +69,8 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
 
         /*
         if (isKeyboardSupported(context)) {
-            boolean isSingleValue = !context.getResources().getBoolean(
-                    com.android.internal.R.bool.config_deviceHasVariableKeyboardBrightness);
-
             mKeyboardBrightness = new BrightnessControl(
-                    LineageSettings.Secure.KEYBOARD_BRIGHTNESS, isSingleValue);
+                    LineageSettings.Secure.KEYBOARD_BRIGHTNESS, false);
             mActiveControl = mKeyboardBrightness;
         }
         */
